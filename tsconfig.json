@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2016", "ES6", "DOM"],
+    "jsx": "react",
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "wwwroot/js",
+    "downlevelIteration": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "target": "es5",
+    "allowJs": true
+  },
+  "files": ["src/component/main.ts"],
+  "include": ["./src/**/*"]
+}
